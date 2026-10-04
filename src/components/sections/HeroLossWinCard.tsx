@@ -10,7 +10,7 @@ export function HeroLossWinCard() {
   const [isWin, setIsWin] = useState(false);
   const [userInteracted, setUserInteracted] = useState(false);
   
-  const tl = useRef<gsap.core.Timeline>();
+  const tl = useRef<gsap.core.Timeline | null>(null);
 
   useGSAP(() => {
     // Setup timeline for Loss -> Win transition

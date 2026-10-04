@@ -13,9 +13,12 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# Next.js
+.next/
+out/
+dist/
+node_modules/
+.wrangler/
 
 # production
 /build
